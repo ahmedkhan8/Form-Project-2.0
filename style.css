@@ -1,0 +1,56 @@
+body {
+    background-image: url(kdyj30.webp);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin-top: 1px;
+    border-radius: 10px;
+}
+
+form {
+    font-family: 'Kanit', sans-serif;
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 8px solid #000000;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #219ebc;
+    color: white;
+    cursor: pointer;
+}
+
+#error-message {
+    font-family: 'Kanit', sans-serif;
+    display: none;
+    color: red;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    margin: 0 auto;
+    padding: 3px;
+}
